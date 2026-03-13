@@ -36,7 +36,7 @@
 
 import React, { Component } from "react";
 
-class counter extends Component {
+class Counter extends Component {
   constructor() {
     super();
     this.state = {
@@ -47,7 +47,7 @@ class counter extends Component {
     return (
       <div>
         <h1>Counter APP</h1>
-        <h1>count: {this.state.count} </h1>
+        <h1>Count: {this.state.count} </h1>
         <button onClick={()=>this.setState({count:this.state.count + 1})} >
           Increment
         </button>
@@ -58,7 +58,7 @@ class counter extends Component {
   }
 }
 
-export default counter
+export default Counter
 
 
 
